@@ -28,6 +28,17 @@
         <a href=""><i class="material-icons mic">account_circle</i></a>
     </div>
 </header>
+</div>
+    <div class="content-area">
+    <aside>
+        <nav>
+            <a href="" class="nav-link">
+                <i class="material-icons">home</i>
+                <span id="active span">home</span>
+            </a>
+        </nav>
+    </aside>
+
 </body>
 </html>
 
@@ -116,6 +127,12 @@ header {
 padding-right: 18px;
 text-decoration: none;
 color:black;
+}
+
+.content-area{
+    height: calc(100vh - 56px);
+    display: flex;
+    background-color: aqua;
 }
 
 
