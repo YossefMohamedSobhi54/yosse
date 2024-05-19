@@ -9,7 +9,12 @@
     <title>Youtube</title>
 </head>
 <body>
-
+<header>
+    <div class="left-section">
+        <i class="material icons">menu</i>
+        <img src="images/youtube-logo.png" alt="">
+    </div>
+</header>
 </body>
 </html> 
 
