@@ -28,10 +28,97 @@
         <a href=""><i class="material-icons mic">account_circle</i></a>
     </div>
 
-
 </header>
 
 </div>
 </body>
 </html> 
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Roboto","Arial",sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    padding: 0 16px;
+}
+
+.left-section {
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.left-section img{
+    width: 46%;
+    padding-left: 16px;
+}
+
+.mid-section{
+    display: flex;
+    align-items: center;
+    margin-left: -9%;
+}
+
+.mid-section form{
+    display: flex;
+    height: 40px;
+    width: 628px;
+}
+
+.mid-section input {
+    width: 100%;
+    border-radius: 2px 2px 2px 2px;
+    padding: 12px;
+    font-size: 1.6rem;
+    border-right: none;
+}
+
+.mid-section button{
+    width: 64px;
+    border: 3px dotted fuchsia;
+    border-radius: 2px 2px 2px 2px;
+    padding-top: 4px;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.mid-section button:hover {
+    border-color: blue;
+    background-color: turquoise;
+}
+
+.mid-section .mic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.right-section{
+padding-right: 18px;
+text-decoration: none;
+color:black;
+}
+
 
