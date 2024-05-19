@@ -14,9 +14,24 @@
         <i class="material icons">menu</i>
         <img src="images/youtube-logo.png" alt="">
     </div>
+        <div class="mid-section">
+        <form>
+        <input type="text" placeholder="search">
+        <button><i class="material-icons">search</i></button>
+        </form>
+        <i class="material-icons mic">mic</i>
+    </div>
+    <div class="right-section">
+        <a href=""><i class="material-icons mic">video_call</i></a>
+        <a href=""><i class="material-icons mic">apps</i></a>
+        <a href=""><i class="material-icons mic">notifications</i></a>
+        <a href=""><i class="material-icons mic">account_circle</i></a>
+    </div>
 </header>
 </body>
-</html> 
+</html>
+
+
 
 
 
